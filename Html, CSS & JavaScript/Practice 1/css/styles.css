@@ -1,0 +1,91 @@
+/***************************Body***************************/
+
+body {
+    background-color: azure;
+    margin: 0px;
+    text-align: center;
+    font-family: cursive;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 3.75rem;
+    /* 16px=100%=1em*/
+    font-family: 'Sacramento', cursive;
+    /* margin: 0 auto 0 auto;
+    width: 10%; */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.563rem;
+}
+
+
+/***************************Container***************************/
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+
+/* .middle-container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+   display: inline-block;
+
+
+} */
+
+
+/* .bottom-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+} */
+
+
+/***************************Images***************************/
+
+.cloud-top {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: -40px;
+    left: 300px;
+}
+
+.cloud-bottom {
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    /* margin-left: 20px; */
+    right: 300px;
+    bottom: 650px;
+}
+
+.profile-pic {
+    height: 20%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+/***************************Tables***************************/
+
+.skill-table {
+    border: solid 1px;
+    border-radius: 15%;
+    /* margin-left: 25%;
+    margin-top: 1%;
+     */
+    margin: 2% 0% 2% 25%;
+    /*top,right,bottom,left*/
+}
+
+.education-table {
+    margin: 2% 0% 0% 20%;
+}
