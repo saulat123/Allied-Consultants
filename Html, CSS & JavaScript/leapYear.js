@@ -1,8 +1,8 @@
 var input = 1700;
 
-// if (input % 4 === 0 && input % 100 !== 0 && input % 400 !== 0) {
-//     console.log("Its a leap year");
-// } else console.log("Its not a Leap year");
+// // if (input % 4 === 0 && input % 100 !== 0 && input % 400 !== 0) {
+// //     console.log("Its a leap year");
+// // } else console.log("Its not a Leap year");
 
 var func = () => {
     if (input % 4 === 0) {
