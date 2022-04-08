@@ -1,3 +1,5 @@
+/*************** Call Back ***************/
+
 // function getData(cb) {
 //     setTimeout(() => {
 //         console.log("Get data");
@@ -11,6 +13,7 @@
 
 // getData(dispData);
 
+/*************** Task ***************/
 // function getData(cb) {
 //     console.log("Start");
 //     setTimeout((cb) => console.log("3 Sec"), 3000);
@@ -47,7 +50,7 @@ function myfunc(t) {
     setTimeout(() => {
         console.log(`${t / 1000} seconds`);
     }, t);
-    if (t < 15000) return myfunc(t + 3000);
+    if (t < 15000) myfunc(t + 3000);
 }
 var t;
 myfunc(3000);

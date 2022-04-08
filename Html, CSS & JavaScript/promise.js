@@ -1,5 +1,4 @@
-// /************** using declaring variable  **************/
-
+/************** using declaring variable  **************/
 // var complete = true;
 // const prom = new Promise(function(resolve, reject) {
 //     if (complete) resolve("Successful");
@@ -7,7 +6,7 @@
 // });
 // console.log(prom);
 
-// /************** using function  **************/
+/************** using function  **************/
 // function prom(complete) {
 //     return new Promise(function(resolve, reject) {
 //         if (complete) resolve("Successful");
@@ -43,25 +42,26 @@
 //     });
 
 /************** Division using promise  **************/
-const prom = (a, b) => {
-    return new Promise((resolve, reject) => {
-        console.log("Fetching Data, Please Wait....");
-        var c = a / b;
-        setTimeout(() => {
-            if ((a, b)) resolve(`Answer is ${c}`);
-            else reject("Failed");
-        }, 3000);
-    });
-};
+// const prom = (a, b) => {
+//     return new Promise((resolve, reject) => {
+//         console.log("Fetching Data, Please Wait....");
+//         var c = a / b;
+//         setTimeout(() => {
+//             if ((a, b)) resolve(`Answer is ${c}`);
+//             else reject("Failed");
+//         }, 3000);
+//     });
+// };
 
-prom(10, 20)
-    .then((success) => {
-        console.log(success);
-    })
-    .catch((error) => {
-        console.log(error);
-    });
+// prom(10, 20)
+//     .then((success) => {
+//         console.log(success);
+//     })
+//     .catch((error) => {
+//         console.log(error);
+//     });
 
+/************** Declaring promise  **************/
 // const p = new Promise(function(res, rej) {
 //     var a = true;
 //     if (a) console.log("Success");
@@ -81,3 +81,18 @@ prom(10, 20)
 // }
 
 // p(true);
+
+/************** If value is greater than 20  **************/
+// const prom = new Promise((res, rej) => {
+//     let value = 20;
+//     if (value > 10) res(`value is ${value}`);
+//     else rej("failed");
+// });
+
+// prom
+//     .then((success) => {
+//         console.log(success);
+//     })
+//     .catch((error) => {
+//         console.log(error);
+//     });
