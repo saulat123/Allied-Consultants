@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reverse Array</title>
+
+    <script>
+        var arr = ["Saulat", "Abbas", "Khan", "Allied", "Comsats"];
+        document.write(arr + "<br>");
+
+        // var reverse = arr.reverse();
+        // document.write(reverse + "<br>");
+
+        for (var r = arr.length - 1; r >= 0; r--) {
+            document.write(arr[r] + " ");
+        }
+
+        var arr1 = [
+            ["Name", "Age", "Gender", "Country"],
+            ["Saulat", 23, "male", "pakistan"],
+            ["Saulat", 23, "male", "pakistan"],
+            ["Saulat", 23, "male", "pakistan"],
+            ["Saulat", 23, "male", "pakistan"],
+        ];
+
+        // document.write("<table border = '1px'>");
+        // for (var a = 0; a <= arr1.length; a++) {
+        //     document.write("<tr >");
+        //     for (var b = 0; b < arr1[a].length; b++) {
+        //         document.write("<td >" + arr1[a][b] + "</td>");
+        //     }
+        //     document.write("</tr>");
+        // }
+        // document.write("</table>");
+
+        document.write("<table border = '1px'");
+        for (var c = arr1.length - 1; c >= 0; c--) {
+            document.write("<tr >");
+            for (var d = arr1[c].length - 1; d >= 0; d--) {
+                document.write("<td >" + arr1[c][d] + "</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</head>
+
+<body></body>
+
+</html>
